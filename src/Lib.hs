@@ -23,6 +23,7 @@ newtype Markov = Markov
 -- | An MState (Markov state) is an index in the matrix.
 type MState = Int
 
+
 -- | An App is a Markov chain with a current state and a Random Gen.
 newtype App a = App
     { runApp :: ReaderT Markov (StateT MState (RandT StdGen IO)) a
