@@ -1,0 +1,21 @@
+
+./app/Main.hs,52
+module Main Main0,1
+main main4,5
+main main5,6
+
+./Setup.hs,15
+main main1,2
+
+./src/Lib.hs,201
+module Lib Lib0,1
+type Probability Probability2,3
+data MarkovChain MarkovChain4,5
+data MarkovChain = Matrix Matrix4,5
+type State State7,8
+nextState nextState9,10
+nextState nextState10,11
+
+./test/Spec.hs,30
+main main0,1
+main main1,2
